@@ -18,6 +18,8 @@ The replicated study will follow a similar pipeline as the original study. Speci
 
 An ANOVA analysis will be carried out to test a three-way interaction effect, including 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation). As a consequence, insufficient power could be a potential issue for this replication.
 
+Link to the GitHub repository: https://github.com/psych251/porter_2016_1_rescue
+Link to the original study: https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdfx
 
 ## Summary of prior replication attempt
 
