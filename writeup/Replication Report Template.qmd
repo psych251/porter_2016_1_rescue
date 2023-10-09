@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of Study 3 by Porter et al. (2016, Psychological Science)"
+author: "Ziwen Chen (ziwench@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,7 +12,11 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+The experiment to be replicated is Study 3 from Porter et al. (2016). The original study investigated the social cognition of linguistic intergroup bias (LIB), which is the tendency to use abstract language to describe desirable behaviors of in-group members and undesirable behaviors of out-group members, and vice versa. The study believes that the action of using LIB could be used as a cue to infer the speaker's social identity. In general, this study is related to the fields of linguistics, categorization, and social cognition, which are relevant to my research interests in measuring culture via language.
+
+The replicated study will follow a similar pipeline as the original study. Specifically, 145 participants will be recruited online via Amazon MTurk and randomly assigned to one of the two conditions (favorable LIB or unfavorable LIB). In both conditions, participants will be asked to read a short paragraph describing a person's political affiliation and a description provided by an unknown speaker about that person's behavior. The speaker will use favorable LIB in one condition and unfavorable LIB in another condition. After reading the paragraph, participants will be asked to guess the speaker's political affiliation. Participants will also be asked to rate the likelihood that they will be friends with the speaker. After the experiment, participants will be asked to provide their political affiliation information as well.
+
+An ANOVA analysis will be carried out to test a three-way interaction effect, including 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation). As a consequence, insufficient power could be a potential issue for this replication.
 
 
 ## Summary of prior replication attempt
