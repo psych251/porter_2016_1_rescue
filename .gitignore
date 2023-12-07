@@ -21,6 +21,7 @@
 *.httr-oauth
 *.DS_Store
 Thumbs.db
+.gitkeep
 
 # Ignore raw data directory
 /raw/
