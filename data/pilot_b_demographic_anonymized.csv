@@ -1,0 +1,9 @@
+newID,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status
+c3bd8a1a-a4ef-40bf-8541-0e2698c97003,23,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+bd2e337f-76f4-4849-831b-e131de8b6d26,21,Male,White,United States,United States,United States,English,No,Full-Time
+33c596c6-26f7-4970-bf4f-10d89fea5860,31,Male,Asian,United States,United States,United States,English,No,Full-Time
+6abb6177-f9a6-434d-9e7f-00e4ab26300c,49,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+192cc870-6af2-4959-b232-6027a1f38acc,34,Female,White,United States,United States,United States,English,No,Full-Time
+9816d44d-b66b-479a-9dc8-ade108029a15,45,Female,Other,United States,United States,United States,English,No,DATA_EXPIRED
+234b4b05-ff91-4f78-bcea-474c5114dd69,22,Female,Asian,United States,United States,United States,English,Yes,DATA_EXPIRED
+2fd65c06-dbe5-4d5a-a635-aa06f1aaf201,61,Female,White,United States,United States,United States,English,No,Other

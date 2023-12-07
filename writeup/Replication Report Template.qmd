@@ -19,48 +19,103 @@ The replicated study will follow a similar pipeline as the original study. Speci
 An ANOVA analysis will be carried out to test a three-way interaction effect, including 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation). As a consequence, insufficient power could be a potential issue for this replication.
 
 Link to the GitHub repository: https://github.com/psych251/porter_2016_1_rescue
+
 Link to the original study: https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdfx
 
 ## Summary of prior replication attempt
 
-Based on the prior write-up, describe any differences between the original and 1st replication in terms of methods, sample, sample size, and analysis. Note any potential problems such as exclusion rates, noisy data, or issues with analysis. 
+### Method differences
+Since the first replication failed to obtain the specific wording of questions and instructions from the authors, they came up with their own wording for the questions and instructions. However, when looking at the OSF repository for the original paper, I indeed find the original wording. The table below compares the wording used in the original paper and the first replication.
+
+|                       | Original                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | First Replication                                                                      |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| Political Orientation | I endorse many aspects of conservative political ideology (7-point likert scale, 1= Strongly Disagree).<br /> I endorse many aspects of conservative political ideology (7-point likert scale, 1= Strongly Disagree)<br /> In general, how would you describe your political views on social issues? (7-point likert scale, 1= Very liberal) <br />Generally speaking, do you usually consider yourself a Democrat, a Republican, an Independent, or affliliated with another political party? (Democrat, Republican, Independent, Other political party) | How would you describe your political affiliation? (Democrat, Republican, Independent) |
+| Future Behavior       | Please estimate the percentage of future situations in which Peter is likely to help others. (Percentage 0-100) <br />Please estimate the percentage of future situations in which Peter is likely to be rude to others. (Percentage 0-100)                                                                                                                                                                                                                                                                                                          | Not Given                                                                              |
+| Friendship Likelihood | How likely is it that you and the communicator would be friends? (5-point likert scale, 1=not at all likely)                                                                                                                                                                                                                                                                                                                                                                                                                                   | How likely would you personally be friends with Peter?                                 |
+| Communicator's group  | likely group membership of the communicator (8-point likert scale,  1 = definitely a Democrat) (exact question wording are not given)                                                                                                                                                                                                                                                                                                                                                                                                                                                 | What do you think is the communicator’s political group membership?                     |
+
+Note that a key difference between the original paper and the first replication is the friendship likelihood question. While the original paper asked for participants to estimate their likelihood to be friend with the **communicator**, the replication asked for their likelihood to be friend with the **target**. Apart from this obvious measurement error, it is unclear whether the wording of the other questions might contribute to the failure of the first replication. 
+
+Furthermore, the author of the initial replication pointed out that factors such as a lack of attention check and potential memory loss may result in failure in passing the manipulation check, which would then lead to replication failure in general. The present attempt has addressed these issues.
+
+### Sampling Differences
+The original paper recruited 145 participants (mean age= 30.91). Participants’ self-reported political-party affiliations were as follows: 41.4% Democrat, 17.2% Republican, 33.1% Independent, 3.4% “other,” and 4.8% not reported. Seventeen participants were excluded from the analysis.
+
+The first replication recruited 168 participants (mean age = 33.41), based on their power analysis results. Participants’ self-reported political-party affiliations were as follows: 41.4% Democrat, 23.1% Republican, 35.5% Independent. All participants finished all the portions of the study, and none of them was excluded from data analyses.
+
+In general, the first replication has a quite similar sample compared to the original study, in terms of size and demographic distribution. The only slight different is that there were more replications in the first replication than in the original paper, this might be because the first replication did not provide an "other" option for political affliation question, which was provided in the original study. Fail to having an "other" option make the exclusion rate lower in the first replication than in the original study.
+
+### Analysis Differences
+The original article did not share their specific R code,so we cannot fully tell if there are any analysis differences.
 
 ## Methods
 
 ### Power Analysis
+The main effect of the original study is stated as follow:
+>Participants in the favorable-LIB condition, relative to those in the unfavorable-LIB condition, were significantly more likely to believe that the communicator and target shared political-group membership, F(1, 121)= 8.67, p < .01, d = 0.51.
 
-Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+For Power Analysis in G*Power, I used the following parameters:
 
-How much power does your planned sample have for original effect? For an attenuated effect that is half the size of the original? 
+  - Test Family: F tests.
+  - Statistical Test: ANOVA: Fixed effects, special, main effects and interactions 
+  - Type of Power Analysis: A priori (for sample size calculation).
+  - Effect Size (f): 0.255 (converted from Cohen's d to Cohen's f)
+  - Alpha Level: 0.05
+  - Number of Groups: 2
+  - Numerator DF: 1
 
-(If power analysis is not possible or precise, discuss more fully how you determined a sample size that would be sufficient for rescue.)
+The estimated sample size is 123 for 80% power, 164 for 90% power, and 202 for 95% power.
+Note that this is mainly designed to replicate the Main effect of LIB, which may not be sufficient for a three-way ANOVA on the secondary effect.
+
 
 ### Planned Sample
+The sample in the original research is described as follows:
 
-Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+>One hundred forty-five participants (mean age = 30.91 years) were recruited from MTurk .com. Participants’ self-reported political-party affiliation were as follows: 41.4% Democrat, 17.2% Republican, 33.1% Independent, 3.4% “other,” and 4.8% not reported. Five participants who did not complete one of the dependent measures, 5 participants who reported their political-party affiliation as “other,” and 7 participants who did not report their political-party affiliation were not included in analyses.
+
+According to the power analysis, the planned sample would be 123, and data collection will stop once that number is reached.
 
 ### Materials
+The following passage describes the materials used in the original study:
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+>Participants were asked to read a passage and then respond to questions. In the Republican-target condition, the passage indicated that Peter had voted for John McCain; in the Democratic-target condition, Peter had voted for Barack Obama. In the second part of the passage, participants were again provided with an unknown communicator’s description of Peter’s helpful and rude behaviors. Following Wigboldus et al. (2000), we included a description of one discrete episode, expressed in the present tense, for each type of behavior (for the full descriptions, see Table S1 in the Supplemental Material available online). For example, the description of helpful behavior in the favorable-LIB condition was written in abstract language and read as follows: “On one occasion, there is a person in a wheelchair who needs assistance getting up a ramp. Peter reaches for the handles of the wheelchair. Peter is helpful.” In the unfavorable-LIB condition, helpful behavior was described concretely: “On one occasion, there is a person in a wheelchair who needs assistance getting up a ramp. Peter reaches for the handles of the wheelchair. Peter pushes the wheelchair up the ramp.”
+After reading the passage, participants indicated the likely group membership of the communicator on an 8-point scale anchored by 1, definitely a Democrat, and 8, definitely a Republican. They then rated the likelihood that they would be friends with the communicator, using a 5-point scale ranging from 1, it is not at all likely, to 5, it is extremely likely. Finally, participants completed the manipulation-check items and a demographic questionnaire on which they reported their political-party affiliation and political ideology.
+
+We will employ the same scale and sequence as described in the original passage. However, considering that the Obama vs. McCain presidential election occurred in 2008, our manipulation may not be effective. We decide to instead provide more generalized group information by stating that Peter voted for the Democratic or Republican Party in the past.
 
 ### Procedure	
-
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+Building on the material discussed earlier, the procedure for the questionnaire is as follows: 
+1. Inform participants of the target social group's membership. 
+2. Present the communicator's description of the target. 
+3. Participants make inferences about the future behavior of the target, the communicator's group affiliation, and the likelihood of being friends with the communicator. 
+4. Participants complete a demographic questionnaire.
 
 ### Controls
-
-What attention checks, positive or negative controls, or other quality control measures are you adding so that a (positive or negative) result will be more interpretable?
-
+Given the previous replication's failure and the subtlety of the manipulation, we will add a new attention check question post-inference queries. Participants will be asked, "Which statement correctly describes Peter's behavior on the previous page?" Possible answers include: "Peter is always polite and attentive," "Peter assists someone in a wheelchair but is rude by yawning and ignoring his colleague," "Peter never engages with work colleagues," and "Peter refuses to help a person in a wheelchair." The answer should be pretty obvious if the participant read the material.
 
 ### Analysis Plan
+We will conduct three sets of data analyses to replicate the results:
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+1. **LIB Manipulation Check**: This analysis aims to determine if favorable or unfavorable language-induced bias (LIB) conditions lead to different predictions about the target's future behavior (helpful or rude). The following analyses will be performed:
+  - Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels)
+2. **Social Category Inference**: The focus here is to examine if the LIB conditions influence inferences about the likelihood of shared category membership between the target and communicator. The analyses include:
+  - Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
 
-**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+- Supplementary t-tests and calculation of Cohen's d effect size for subgroup analyses.
+3. **Friendship Likelihood**: We will assess participants' likelihood of becoming friends with the communicator using:
+  - Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
+
+Apart from the major factorial ANOVAs, for each set, we will also perform supplementary t-tests and calculation of Cohen's d effect size for subgroup analyses.
 
 ### Differences from Original Study and 1st replication
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+There are three key differences between the current project and the original study, as well as its first replication:
+
+1. **Change in Wording for Disclosing Target Social Group Membership**: We used "Peter voted for the Democratic or Republican Party in the past" instead of "Peter voted for Obama vs. McCain" to indicate Peter's group information.
+
+2. **Inclusion of Attention Check Questions**: Attention check questions have been added in the post-test questionnaire. 
+
+3. **Put the material and question on the same page**: To avoid potential memory loss, we now put the material as well as the questions on the same page so that participants could refer to the material while answering questions.
 
 ### Methods Addendum (Post Data Collection)
 
@@ -80,27 +135,52 @@ You can comment this section out prior to final report with data collection.
 
 Data preparation following the analysis plan.
 	
-```{r include=F}
+```{r,message=FALSE, warning=FALSE}
 ### Data Preparation
+library(dplyr)
+library(tidyr)
+library(readr)
+library(ggplot2)
 
-#### Load Relevant Libraries and Functions
+# Read the data
+data_path = "../data"
+data <- read_csv(file.path(data_path, "pilot_b_anonymized.csv"))
 
-#### Import data
+# Revert wide to long, change variable names
+data_cleaned <- data %>%
+  rename(future_help1 = future_help1_1,
+         future_help2 = future_help2_1,
+         future_help3 = future_help3_1,
+         future_help4 = future_help4_1,
+         future_rude1 = future_rude1_1,
+         future_rude2 = future_rude2_1,
+         future_rude3 = future_rude3_1,
+         future_rude4 = future_rude4_1) %>%
+  pivot_longer(cols = c(starts_with("future_help"), starts_with("future_rude"),
+                        starts_with("pol_cate"), starts_with("likelyfriends")),
+               names_to = c(".value", "condition"),
+               names_sep = "(?<=\\D)(?=\\d)",
+               values_drop_na = TRUE) %>%
+  mutate(lib_cate = if_else(condition %in% c(1, 3), "F", "U"),
+         group_cate = if_else(condition %in% c(1, 2), "R", "D"),
+         shared_group = if_else(condition %in% c(1, 2), 8 - pol_cate, pol_cate))
 
-#### Data exclusion / filtering
+# not used for this version: remove row with attention value that is not 2
 
-#### Prepare data for analysis - create columns etc.
 ```
 
-### Results of control measures
-
-How did people perform on any quality control checks or positive and negative controls? 
-
 ### Confirmatory analysis
+```{r, message=FALSE, warning=FALSE}
+# manipulation check
+print(t.test(future_rude~lib_cate, data = data_cleaned))
+print(t.test(future_help~lib_cate, data = data_cleaned))
 
-The analyses as specified in the analysis plan.  
-
-*Three-panel graph with original, 1st replication, and your replication is ideal here*
+## Main effect plot
+ggplot(data_cleaned, aes(x = group_cate, y = shared_group, fill = lib_cate)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  labs(x = "Political Group", y = "Likelihood of Shared Group Membership") +
+  theme_minimal()
+```
 
 ### Exploratory analyses
 
@@ -118,3 +198,7 @@ Open the discussion section with a paragraph summarizing the primary result from
 ### Commentary
 
 Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+
+There were several confusing problems with the original studies that I don't know how to explain:
+1. The original study use different likert scales for the identical research question between studies. In study 1, when estimating the likelihood that the communicator was either a Democrat or a Republican (the key construct of interest), Ratings were made on a 7-point scale, anchored by 1, definitely a Republican, and 7, definitely a Democrat. However, in study 3, the likely group membership of the communicator was estimated on an 8-point scale anchored by 1, definitely a Democrat, and 8, definitely a Republican. The authors did not make any justifications on why they decide to change scales.
+

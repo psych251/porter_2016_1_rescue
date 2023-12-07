@@ -6,13 +6,6 @@
 *.history
 *.RData
 
-# Image/output files unless otherwise specified
-*.png
-*.docx
-*.doc
-*.jpg
-*.gif
-
 # Misc Knit Files
 *.aux
 *.gz
@@ -22,13 +15,15 @@
 *.knit.md
 *cache
 *.results
+*.html
 
 # Other
 *.httr-oauth
 *.DS_Store
+Thumbs.db
 
-# MTurk credentials and data
-auth.json
-my-own-auth.json
-mturk/
-mturk-and-gmail.txt
+# Ignore raw data directory
+/raw/
+/writeup/rsconnect/
+/writeup/Replication Report Template_files/
+/writeup/Replication-Report-Template_files/
