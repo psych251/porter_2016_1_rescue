@@ -14,18 +14,21 @@ format:
 
 The experiment to be replicated is Study 3 from Porter et al. (2016). The original study investigated the social cognition of linguistic intergroup bias (LIB), which is the tendency to use abstract language to describe desirable behaviors of in-group members and undesirable behaviors of out-group members, and vice versa. The study believes that the action of using LIB could be used as a cue to infer the speaker's social identity. In general, this study is related to the fields of linguistics, categorization, and social cognition, which are relevant to my research interests in measuring culture via language.
 
-The replicated study will follow a similar pipeline as the original study. Specifically, 145 participants will be recruited online via Amazon MTurk and randomly assigned to one of the two conditions (favorable LIB or unfavorable LIB). In both conditions, participants will be asked to read a short paragraph describing a person's political affiliation and a description provided by an unknown speaker about that person's behavior. The speaker will use favorable LIB in one condition and unfavorable LIB in another condition. After reading the paragraph, participants will be asked to guess the speaker's political affiliation. Participants will also be asked to rate the likelihood that they will be friends with the speaker. After the experiment, participants will be asked to provide their political affiliation information as well.
+The replicated study will follow a similar pipeline as the original study. Specifically, 168 participants will be recruited online via Prolific and randomly assigned to one of the two conditions (favorable LIB or unfavorable LIB). In both conditions, participants will be asked to read a short paragraph describing a target person's political affiliation and a description provided by an unknown communicator about that person's behavior. The communicator will use favorable LIB in one condition and unfavorable LIB in another condition. After reading the paragraph, participants will be asked to guess the communicator's political affiliation. Participants will also be asked to rate the likelihood that they will be friends with the communicator. After the experiment, participants will be asked to provide their political affiliation information as well.
 
-An ANOVA analysis will be carried out to test a three-way interaction effect, including 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation). As a consequence, insufficient power could be a potential issue for this replication.
+The main effect of LIB on social categorization will be tested via ANOVA tests. In addition, a three-way ANOVA analysis (i.e., 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation). ) will be carried out to test the secondary effect on friendship likelihood.
 
-Link to the GitHub repository: https://github.com/psych251/porter_2016_1_rescue
+Below are links to related materials:
 
-Link to the original study: https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdfx
+- Link to the [Qualtrics Survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_8AhNKUkgXXDVaOa)
+- Link to the [GitHub repository](https://github.com/psych251/porter_2016_1_rescue)
+- Link to the [Original study](https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdf)
+- Link to the [Previous Replication](https://rpubs.com/sansiropp/261171)
 
 ## Summary of prior replication attempt
 
 ### Method differences
-Since the first replication failed to obtain the specific wording of questions and instructions from the authors, they came up with their own wording for the questions and instructions. However, when looking at the OSF repository for the original paper, I indeed find the original wording. The table below compares the wording used in the original paper and the first replication.
+Since the first replication failed to obtain the specific wording of questions and instructions from the authors, they came up with their own wording for the questions and instructions. However, while searching for the original codebook in the OSF repository, I discovered some questions that were used in the original material. The table below compares the wording in the original paper to that in the first replication.
 
 |                       | Original                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | First Replication                                                                      |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
@@ -43,7 +46,7 @@ The original paper recruited 145 participants (mean age= 30.91). Participants’
 
 The first replication recruited 168 participants (mean age = 33.41), based on their power analysis results. Participants’ self-reported political-party affiliations were as follows: 41.4% Democrat, 23.1% Republican, 35.5% Independent. All participants finished all the portions of the study, and none of them was excluded from data analyses.
 
-In general, the first replication has a quite similar sample compared to the original study, in terms of size and demographic distribution. The only slight different is that there were more replications in the first replication than in the original paper, this might be because the first replication did not provide an "other" option for political affliation question, which was provided in the original study. Fail to having an "other" option make the exclusion rate lower in the first replication than in the original study.
+In terms of size and demographic distribution, the first replication's sample is generally fairly similar to that of the original research. The only difference is that there were no data exclusion in the first replication than in the original paper; this could be because the first replication did not include a "other" option for the political affiliation question, which was included in the original study. Failure to include a "other" option reduces the exclusion rate in the first replication compared to the original study.
 
 ### Analysis Differences
 The original article did not share their specific R code,so we cannot fully tell if there are any analysis differences.
@@ -52,10 +55,10 @@ The original article did not share their specific R code,so we cannot fully tell
 
 ### Power Analysis
 The main effect of the original study is stated as follow:
+
 >Participants in the favorable-LIB condition, relative to those in the unfavorable-LIB condition, were significantly more likely to believe that the communicator and target shared political-group membership, F(1, 121)= 8.67, p < .01, d = 0.51.
 
 For Power Analysis in G*Power, I used the following parameters:
-
   - Test Family: F tests.
   - Statistical Test: ANOVA: Fixed effects, special, main effects and interactions 
   - Type of Power Analysis: A priori (for sample size calculation).
@@ -64,16 +67,14 @@ For Power Analysis in G*Power, I used the following parameters:
   - Number of Groups: 2
   - Numerator DF: 1
 
-The estimated sample size is 123 for 80% power, 164 for 90% power, and 202 for 95% power.
-Note that this is mainly designed to replicate the Main effect of LIB, which may not be sufficient for a three-way ANOVA on the secondary effect.
-
+The sample size is estimated to be 123 for 80% power, 164 for 90% power, and 202 for 95% power. We decided to take 168 samples because the original study recruited 145 samples and the first replication recruited 168 samples. It should be noted that this power analysis is based on the main effect, and there is a risk of under-powering the secondary effect calculated using the three-way ANOVA. However, because the first replication failed to replicate both the manipulation and the main effect, we decided to concentrate on the main effect in this study.
 
 ### Planned Sample
 The sample in the original research is described as follows:
 
 >One hundred forty-five participants (mean age = 30.91 years) were recruited from MTurk .com. Participants’ self-reported political-party affiliation were as follows: 41.4% Democrat, 17.2% Republican, 33.1% Independent, 3.4% “other,” and 4.8% not reported. Five participants who did not complete one of the dependent measures, 5 participants who reported their political-party affiliation as “other,” and 7 participants who did not report their political-party affiliation were not included in analyses.
 
-According to the power analysis, the planned sample would be 123, and data collection will stop once that number is reached.
+We decided to recruit 168 participants for the reasons stated in the power analysis section.
 
 ### Materials
 The following passage describes the materials used in the original study:
@@ -81,7 +82,7 @@ The following passage describes the materials used in the original study:
 >Participants were asked to read a passage and then respond to questions. In the Republican-target condition, the passage indicated that Peter had voted for John McCain; in the Democratic-target condition, Peter had voted for Barack Obama. In the second part of the passage, participants were again provided with an unknown communicator’s description of Peter’s helpful and rude behaviors. Following Wigboldus et al. (2000), we included a description of one discrete episode, expressed in the present tense, for each type of behavior (for the full descriptions, see Table S1 in the Supplemental Material available online). For example, the description of helpful behavior in the favorable-LIB condition was written in abstract language and read as follows: “On one occasion, there is a person in a wheelchair who needs assistance getting up a ramp. Peter reaches for the handles of the wheelchair. Peter is helpful.” In the unfavorable-LIB condition, helpful behavior was described concretely: “On one occasion, there is a person in a wheelchair who needs assistance getting up a ramp. Peter reaches for the handles of the wheelchair. Peter pushes the wheelchair up the ramp.”
 After reading the passage, participants indicated the likely group membership of the communicator on an 8-point scale anchored by 1, definitely a Democrat, and 8, definitely a Republican. They then rated the likelihood that they would be friends with the communicator, using a 5-point scale ranging from 1, it is not at all likely, to 5, it is extremely likely. Finally, participants completed the manipulation-check items and a demographic questionnaire on which they reported their political-party affiliation and political ideology.
 
-We will employ the same scale and sequence as described in the original passage. However, considering that the Obama vs. McCain presidential election occurred in 2008, our manipulation may not be effective. We decide to instead provide more generalized group information by stating that Peter voted for the Democratic or Republican Party in the past.
+We'll use the same scale and sequence as in the original passage. However, given that the Obama-McCain presidential election took place in 2008, our manipulation may be ineffective. Instead, we decide to provide more generalized group information by stating that Peter has previously voted for the Democratic or Republican Parties.
 
 ### Procedure	
 Building on the material discussed earlier, the procedure for the questionnaire is as follows: 
@@ -113,7 +114,7 @@ There are three key differences between the current project and the original stu
 
 1. **Change in Wording for Disclosing Target Social Group Membership**: We used "Peter voted for the Democratic or Republican Party in the past" instead of "Peter voted for Obama vs. McCain" to indicate Peter's group information.
 
-2. **Inclusion of Attention Check Questions**: Attention check questions have been added in the post-test questionnaire. 
+2. **Inclusion of Attention Check Questions**: Attention check questions have been added in the post-test questionnaire. See description in the "Control" section.
 
 3. **Put the material and question on the same page**: To avoid potential memory loss, we now put the material as well as the questions on the same page so that participants could refer to the material while answering questions.
 
@@ -129,8 +130,6 @@ You can comment this section out prior to final report with data collection.
 
 
 ## Results
-
-
 ### Data preparation
 
 Data preparation following the analysis plan.
@@ -165,23 +164,66 @@ data_cleaned <- data %>%
          group_cate = if_else(condition %in% c(1, 2), "R", "D"),
          shared_group = if_else(condition %in% c(1, 2), 8 - pol_cate, pol_cate))
 
+summary_data <- data_cleaned %>%
+  group_by(lib_cate, group_cate) %>%
+  summarise(
+    mean = mean(shared_group),
+    se = sd(shared_group) / sqrt(n()))
+
 # not used for this version: remove row with attention value that is not 2
 
 ```
 
 ### Confirmatory analysis
+#### Manipulation Check
 ```{r, message=FALSE, warning=FALSE}
-# manipulation check
+# t test: LIB on future behavior
 print(t.test(future_rude~lib_cate, data = data_cleaned))
 print(t.test(future_help~lib_cate, data = data_cleaned))
 
-## Main effect plot
-ggplot(data_cleaned, aes(x = group_cate, y = shared_group, fill = lib_cate)) +
-  geom_bar(stat = "identity", position = position_dodge()) +
-  labs(x = "Political Group", y = "Likelihood of Shared Group Membership") +
-  theme_minimal()
+# one way anova: LIB on future behavior
+res.aov <- aov(future_help ~ lib_cate, data = data_cleaned)
+print(summary(res.aov))
+res.aov <- aov(future_rude ~ lib_cate, data = data_cleaned)
+print(summary(res.aov))
+
+# two way anova: LIB, target group, future behavior
+res.aov2 <- aov(future_help ~ lib_cate + group_cate + lib_cate:group_cate, data = data_cleaned)
+summary(res.aov2)
+
+res.aov2 <- aov(future_rude ~ lib_cate + group_cate + lib_cate:group_cate, data = data_cleaned)
+summary(res.aov2)
 ```
 
+#### Main Effect
+```{r}
+## plot
+ggplot(summary_data, aes(x = group_cate, y = mean,  fill = lib_cate)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), 
+                width = 0.2, 
+                position = position_dodge(0.9))+
+  labs(x = "Political Group", y = "Likelihood of Shared Group Membership") +
+  theme_minimal()
+
+## one way anova: LIB on shared group membership
+res.aov <- aov(shared_group ~ lib_cate, data = data_cleaned)
+print(summary(res.aov))
+
+## three way anova
+res.aov3 <- aov(shared_group ~ lib_cate + group_cate + polid, data = data_cleaned)
+print(summary(res.aov3))
+
+## t test
+# print(t.test(shared_group~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'D', ]))
+# print(t.test(shared_group~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'R', ]))
+```
+
+#### Secondary Effect
+```{r}
+res.aov3 <- aov(likelyfriends ~ lib_cate + group_cate + polid, data = data_cleaned)
+print(summary(res.aov3))
+```
 ### Exploratory analyses
 
 Any follow-up analyses desired (not required).  
