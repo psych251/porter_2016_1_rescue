@@ -1,0 +1,172 @@
+newID,Age,Sex,Ethnicity simplified,Country of birth,Country of residence,Nationality,Language,Student status,Employment status
+e904cfa7-3c63-42e9-819c-76206a39bbaa,39,Male,White,United States,United States,United States,English,No,Part-Time
+7de6356a-3b9e-4b44-ad48-40a0d41b00a9,26,Female,Asian,United States,United States,United States,English,No,Other
+95225d6d-041c-4868-bf64-bfb12876392d,24,Female,Asian,United States,United States,United States,English,Yes,DATA_EXPIRED
+acc81f0b-2063-471c-916a-583e85a86936,59,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+d7f01ee3-5086-47fb-bd31-6bb7fdbfe320,37,Male,White,United States,United States,United States,English,No,Full-Time
+d8239309-7fec-44e8-bcf1-28f21f4e7ee5,33,Prefer not to say,Mixed,United States,United States,United States,Other,Yes,Part-Time
+773e5326-1f77-43b3-9aad-0151aebdee94,41,Female,White,United States,United States,United States,English,No,Full-Time
+b26e8d41-cb31-4aea-b237-c26ae4e92111,26,Female,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+9684b8a3-2a7f-4c78-9498-3357dd14f15e,33,Male,Asian,United States,United States,United States,English,Yes,Full-Time
+2c59daad-81e0-4e18-9286-71806a21af56,20,Male,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+c0b9462f-2ed6-4db7-822a-0732c0c2fc96,49,Female,Asian,India,United States,United States,English,No,DATA_EXPIRED
+449b68df-5caf-4eb7-a7db-375ce9f27c76,29,Female,White,United States,United States,United States,English,DATA_EXPIRED,Full-Time
+be384294-ada1-4c59-9a6a-35c0252652b6,33,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+1b9b5b6c-b868-4124-aab7-4c756bbc12a8,48,Female,White,United States,United States,United States,English,No,Full-Time
+8a09f9b0-e615-43f8-917e-9b8c4929ee48,52,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+3f62d88c-3fcb-41c2-ae3b-070e485fa633,23,Female,Black,Nigeria,United States,United States,English,Yes,Full-Time
+0371d75b-326f-47e1-bb1c-c1394c1ba9a0,32,Female,Black,United States,United States,United States,English,No,Part-Time
+e1f6c687-5d8e-499c-80a5-2dbffd6ea95a,26,Male,Other,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+470474c7-eb94-484c-91ca-d2eacde40d65,57,Female,Black,United States,United States,United States,English,No,Full-Time
+9f5b54be-5ba1-42b8-b243-a61381a44478,41,Female,Black,United States,United States,United States,English,No,DATA_EXPIRED
+6e779f5b-cd19-4a1d-a543-07db7577948b,34,Female,Black,United States,United States,United States,English,No,Full-Time
+f0c500c6-c9c6-42db-a824-88d7edca4fd1,47,Female,White,United States,United States,United States,English,No,Part-Time
+ef2c92ef-ef64-491e-8bb2-4dce6cae6ce6,22,Male,Black,United States,United States,United States,English,Yes,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+aaa3e9f4-bfa8-4f87-9e2d-1f14bd460a05,38,Female,White,United States,United States,United States,English,No,Full-Time
+c1bd8f14-25f2-4356-bdfe-d60f80099c54,34,Male,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+eb6c95b7-1f89-4e23-8d31-f4f5f5736180,43,Female,White,United States,United States,United States,English,No,Part-Time
+88fc08ec-a3b2-4b1f-9f25-de691f5e31f2,31,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+0f09e66f-a5bb-48bd-b0b1-b68950bb2f65,41,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+e21bbc39-f986-401f-ab45-94401519708b,21,Female,Mixed,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+fbd2b914-3f68-4d59-a880-4d3d2f43e7ed,28,Male,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+80d145dd-93ce-4c2f-939a-71cd02d6f06c,33,Female,White,United States,United States,United States,English,No,Full-Time
+fcf22dda-35a5-4b67-a74e-084ddacf132c,19,Male,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+760820cf-8bdb-4cbe-b251-f94f5978eb14,31,Male,Asian,China,United States,United States,Vietnamese,DATA_EXPIRED,DATA_EXPIRED
+3274569d-3f83-4840-93a5-249df8f863af,51,Female,White,United States,United States,United States,English,No,Full-Time
+ec31eeb4-5e82-4a15-9236-8bb7d138d2fa,70,Male,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+909768bc-5d1a-4556-8f0e-3bd268a0d2f1,54,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+3068b01c-6a77-4012-8340-13da0e605ec7,33,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+6bc43653-8f64-4c30-93ae-bd272ae621a0,28,Male,Asian,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+a8993160-adbb-4501-ba89-a9e90b65aa2d,30,Female,White,United States,United States,United States,English,No,Full-Time
+8a7eefff-cbb7-4910-9335-06bb5db81aa2,50,Female,Black,United States,United States,United States,English,No,DATA_EXPIRED
+ade0ac6a-a89b-4a88-b12c-057be5559683,58,Male,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+e55f7c3d-feab-4bfc-acaa-e7dd58287f3c,38,Female,Asian,Canada,United States,United States,English,No,Full-Time
+1662d89b-e064-4445-8325-a31017ec8ee4,68,Male,Asian,Cambodia,United States,United States,Chinese,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+df47e215-f3dd-41cb-be9b-3c7ec81b2573,27,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+889fe00f-35c3-43cd-8433-61a5f2ab39c7,70,Male,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+bd7e085a-cf3c-47f4-a0eb-75f24916eec5,22,Female,Mixed,United States,United States,United States,English,Yes,Full-Time
+9748e29a-614e-41b2-b29f-81b00920eb9e,27,Female,Asian,United States,United States,United States,English,No,Unemployed (and job seeking)
+985dc264-5ccc-4817-9ffe-148dfb0252da,43,Male,White,United States,United States,United States,English,No,Full-Time
+e7ff5f4f-ed0c-41ef-b849-b6be85c54be0,30,Female,White,United States,United States,United States,English,No,Full-Time
+ed1aac61-618d-4278-b35b-b87586c3eb40,21,Male,Mixed,United States,United States,United States,English,Yes,Unemployed (and job seeking)
+6eec047a-d54e-4750-8f90-396e5ec22c6b,43,Female,White,United States,United States,United States,English,Yes,Full-Time
+8d1349b8-0446-418c-b438-e8e8d8f26061,23,Female,White,United States,United States,United States,English,Yes,DATA_EXPIRED
+5621b16a-cfed-41d7-baad-fe06d81ed823,41,Female,White,United States,United States,United States,English,No,Full-Time
+8cd75fc1-e036-4818-a3db-6b7637c87ff8,31,Female,Mixed,United States,United States,United States,English,No,Full-Time
+910f5949-3dcd-4a03-b828-72d4e53f15c3,28,Female,White,United States,United States,United States,English,Yes,Full-Time
+f2190ad2-c3b7-4c7e-8646-45cdabc75f5a,49,Male,Black,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+549bf4a4-1f6b-428c-bb3b-385c379baf96,32,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+83c98b77-94f8-4577-9531-c4aa4c175d9a,38,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+beeaa4a7-b81f-4f34-b962-c902f2a74062,19,Male,Asian,United States,United States,United States,English,Yes,Other
+560d21f0-c035-4d04-8efc-5b3c3aa424c2,28,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+782b2686-624c-4f58-8188-880293f20f1d,25,Male,Mixed,Pakistan,United States,United States,Urdu,No,Full-Time
+70057806-aeb7-498f-b387-7b1dc638c286,50,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+69187634-187c-48e3-9819-cb7db4b0a767,32,Male,Black,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+bb8dcd0b-2157-49c2-890f-cc1c2746fbf0,36,Female,White,United States,United States,United States,English,No,Full-Time
+3cdab0b3-4f81-4a25-af44-fed0525457e0,35,Male,Mixed,United States,United States,United States,English,No,Full-Time
+6e234892-dc0b-4bb4-b181-29b25d7b6945,23,Prefer not to say,Asian,Cambodia,United States,United States,English,Yes,Unemployed (and job seeking)
+2851db01-6de3-4d8f-9b41-2c1e0ee02e85,43,Female,White,United States,United States,United States,English,No,Full-Time
+01e5f904-bbe3-49c8-8d28-f493c34615c6,24,Female,Other,United States,United States,United States,Spanish,No,DATA_EXPIRED
+8051378c-fad9-46f8-ac00-9bc19da76bbe,25,Female,White,United States,United States,United States,English,No,Full-Time
+dd9d3e29-5a7a-4f47-b82f-11a1797feed5,26,Male,Mixed,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+55b05e4e-55a7-4874-af5f-bcc7e87de3bd,49,Male,White,United States,United States,United States,English,No,Part-Time
+147680c5-0790-4b97-8153-e4f1f2b0d027,20,Female,White,United States,United States,United States,English,Yes,Part-Time
+146e5c8e-1c43-46d9-8976-3f7ada7ab823,23,Male,Asian,United States,United States,United States,English,No,Full-Time
+9b82fd1c-48ef-4187-98bb-b537746a991f,34,Female,Asian,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+a1f55858-fa85-4ea5-816d-370255eac8af,27,Female,White,United States,United States,United States,English,No,Part-Time
+ba517a46-3547-481d-85cf-005220caf7a5,49,Female,Black,United States,United States,United States,English,Yes,Full-Time
+77bd3da5-bacd-47d5-ae8b-2eaa1cc1524d,58,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+7b2c9beb-ca49-4267-a020-6c95855365b0,41,Female,Other,United States,United States,United States,English,Yes,Full-Time
+3ee0eae2-2ac6-46bb-b36c-f4140d51cb46,42,Female,White,United States,United States,United States,English,No,Part-Time
+f69ab9f0-dc11-4a88-b51f-8ab8acc70215,35,Male,White,United States,United States,United States,English,DATA_EXPIRED,Full-Time
+72d61d18-2b06-47f5-80ee-9b832f02426a,42,Male,Black,United States,United States,United States,English,No,DATA_EXPIRED
+7894997c-a0a0-448e-81ad-3964b725da34,31,Female,White,United States,United States,United States,English,Yes,Full-Time
+5bd303a5-416f-48a2-b793-097b7fb4d0b3,24,Male,White,United States,United States,United States,English,No,Full-Time
+f13f5520-5af5-40cd-8d10-54b9af7b19fb,23,Male,White,United States,United States,United States,English,Yes,Part-Time
+3107ccd9-2590-4780-b0c9-6f52246b4ff1,29,Female,White,United States,United States,United States,English,No,Full-Time
+3fc4c6c8-395a-42cd-86db-1764aafeee68,26,Female,White,United States,United States,United States,English,No,Full-Time
+cfe2435f-0f15-4a2e-8903-4b4ed8646e02,34,Male,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+a943db33-8219-4cb8-987e-731c4eb062fe,54,Male,Black,United States,United States,United States,English,No,Unemployed (and job seeking)
+73812ae3-d438-498b-9390-1cce7e28ca80,26,Female,White,United States,United States,United States,English,No,Full-Time
+aa812d26-81b0-431b-a4ef-ae8e306bf5d7,28,Male,White,Canada,United States,United States,English,No,Full-Time
+312e0b3d-f792-45f2-a49c-f183c8e70766,30,Male,White,United States,United States,United States,English,Yes,Full-Time
+dd8d386f-0c83-42f0-b751-1607dfe2361a,25,Male,Black,United States,United States,United States,English,Yes,DATA_EXPIRED
+30740f7c-ce55-443a-90c3-3417fbd66415,24,Female,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+0d26123c-4872-4179-97e4-d05bb0420207,24,Female,White,United States,United States,United States,English,Yes,Part-Time
+dbf76f09-6635-4d6c-aa5e-92c1f4c8dff2,27,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+0c63fe2d-f154-413f-a8e3-b3f17670f232,34,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+e903d156-fe95-4d72-a16e-9ceeca4010e6,42,Female,Black,United States,United States,United States,English,No,Other
+660125c0-7919-4577-941a-d11eb5d1838a,21,Female,White,United States,United States,United States,English,Yes,Full-Time
+932db297-fb79-467d-88f6-31ab68938ef4,20,Female,White,United States,United States,United States,English,Yes,Unemployed (and job seeking)
+9abb2a27-5a77-4459-99d0-12a5b613f03d,28,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+c92493fd-f1ae-4fb5-be37-c9c6c35fcf25,28,Female,Other,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+6a71a053-a540-4c0e-9d21-08b2d55e2e21,59,Male,White,United States,United States,United States,English,No,Full-Time
+a78c6b52-43c1-4190-8f4b-0bdc3e4e4562,27,Female,White,United States,United States,United States,English,No,Full-Time
+a305e0be-39d9-4dde-98df-0ef588894173,29,Female,Other,Japan,United States,United States,English,No,DATA_EXPIRED
+be72c21c-8cf5-42f1-9b8f-783926a78781,22,Male,Black,United States,United States,United States,English,Yes,DATA_EXPIRED
+df8b1c94-48fd-43b8-ad79-833ecd00c42e,52,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+21b67abf-30b9-46cc-a1db-da8306a63eee,28,Female,White,United States,United States,United States,English,No,Full-Time
+ed974a8a-eec3-469f-ab5c-c2db6dfdb1e9,18,Female,White,United States,United States,United States,Spanish,Yes,Part-Time
+01d109b3-53cf-428d-8053-bda3b459d610,42,Female,Black,Nigeria,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+eb0b8d0a-e16d-40fc-a8e4-a56525e9f794,24,Female,White,United States,United States,United States,English,No,Full-Time
+328ffe9b-94ff-4873-9469-f5aafbf8b990,38,Female,Black,United States,United States,United States,English,No,Unemployed (and job seeking)
+40b92349-dd8e-424c-a95b-8481ba9afd12,41,Male,White,United States,United States,United States,English,No,Full-Time
+467cacba-06c1-4970-8c36-01803339b034,20,Female,Mixed,United States,United States,United States,English,No,Unemployed (and job seeking)
+c2abe44c-1212-4b9a-be1e-fccd958ee544,35,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+a4de9450-82e5-4429-be5f-483a9dedb881,26,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+4b64bc48-c39f-40ac-99c7-32d3102fa011,35,Male,Black,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+95c3065f-6af0-4a8e-9e6f-e52206af61e8,27,Female,White,United States,United States,United States,English,No,Due to start a new job within the next month
+f6be3dde-d5ed-4868-a7be-2d60328e0eae,20,Female,Black,United States,United States,United States,English,Yes,DATA_EXPIRED
+177c284c-91cf-447c-9871-6f11357537ce,21,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+6c1ec60b-3588-4244-97e4-42e79dcb5485,23,Female,Mixed,United States,United States,United States,English,No,DATA_EXPIRED
+a0c085b1-5a17-48ef-9ec5-03237c2787d5,33,Male,White,United States,United States,United States,English,No,Full-Time
+36387df1-b9e2-4d1c-9a40-60b57493be18,60,Male,White,United States,United States,United States,English,No,Full-Time
+76ef6258-2a2b-47cf-a2fa-cf853836ff42,58,Female,White,United Kingdom,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+1e291864-78c1-4951-a45c-15eab6b83bde,38,Female,Black,United States,United States,United States,English,No,Full-Time
+606fed58-af8e-4e85-a6d7-e775cd69c301,21,Male,Mixed,United States,United States,United States,English,Yes,Part-Time
+9ac373c4-397c-4e10-90cd-b662d70e4c1f,24,Male,Mixed,United States,United States,United States,English,Yes,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+0713c130-b050-46a7-9917-658bc9450176,47,Male,Black,United States,United States,United States,English,No,Other
+232da5d5-fb9a-4f30-89be-d40171abb88c,68,Male,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+b7fa666e-9448-40ee-a899-334eb936bce9,24,Male,White,United States,United States,United States,English,Yes,Full-Time
+e55c8f58-b63d-4dd2-bdd2-7086bbce86d6,27,Male,White,United States,United States,United States,English,No,Full-Time
+afb416df-9293-4b1e-921a-4816051278d0,25,Female,White,United States,United States,United States,English,No,Full-Time
+150ecdf9-ca25-4e80-b697-6149eb3ff7d5,33,Male,White,United States,United States,United States,English,No,Full-Time
+990c5faa-15b9-45de-993a-78f2f4c42b26,27,Female,Other,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+c0a62660-af00-49a2-a000-54f7a05ba418,35,Female,Other,United States,United States,United States,English,No,Full-Time
+d6ac7e30-481e-482d-9945-b6d42f3f5851,35,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+17c93920-1466-40d0-b4fe-39203dbe8097,49,Female,White,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+6263f3cc-80b9-4c4d-b235-4ded851c69b0,DATA_EXPIRED,Female,DATA_EXPIRED,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+177c9f4d-bf9a-460a-83c4-390f48b3e332,53,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+dec081fe-73cd-4e68-adc2-581e60f14c67,29,Male,White,United States,United States,United States,English,No,DATA_EXPIRED
+ce81e99f-98bc-4ec0-a3b7-bb5dc8c0ebc3,DATA_EXPIRED,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+ff355727-6144-48b9-9610-dcf20d56e0fb,23,Female,Black,United States,United States,United States,English,Yes,Unemployed (and job seeking)
+a9eb992d-fdfb-4a87-865b-107cd7d70a24,37,Male,Asian,United States,United States,United States,English,No,Full-Time
+0d8506e1-48e6-4534-8daa-b22d357ae770,36,Female,White,United States,United States,United States,English,No,Full-Time
+6c2fefaf-9427-4213-9937-5b93ca09fe79,25,Male,Other,United States,United States,United States,Spanish,No,Full-Time
+1454de8b-3d70-4d8a-95c3-0d1f29d7cdb8,30,Male,Mixed,United States,United States,United States,English,Yes,Unemployed (and job seeking)
+fd49a18b-aa51-4b6e-b9a9-3283f8608c96,25,Female,White,United States,United States,United States,Polish,No,Full-Time
+fe67599f-e124-4f97-9356-3d51229f9859,23,Female,White,United States,United States,United States,English,No,Full-Time
+65e4c4a9-8dfd-4fd4-a48f-60e2a693f119,38,Male,White,United States,United States,United States,English,No,Part-Time
+638edd66-0c79-4ca2-9074-568197867a44,75,Male,Black,United States,United States,United States,English,No,"Not in paid work (e.g. homemaker', 'retired or disabled)"
+861f746a-97f2-4ed2-b412-33437975c0e9,41,Male,White,United States,United States,United States,English,No,Full-Time
+87a7a537-553f-45b0-876a-487cc565fe27,28,Male,Asian,United States,United States,United States,English,Yes,Other
+6dda05c9-0ef1-4ee6-8784-1e7adc15ed7d,28,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+1c20f46e-f1b0-4635-a607-713a5051eac4,26,Male,Mixed,United States,United States,United States,English,No,Full-Time
+e65ebfa9-60a8-4b64-bd2e-5a47e809fb89,30,Female,White,United States,United States,United States,English,No,Full-Time
+718ba5a6-f415-48eb-85dc-e5a143207dc9,19,Male,Asian,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+3c0dbb68-c28d-4a9e-b0b4-ab3576d07abd,42,Female,Black,United States,United States,United States,English,No,Full-Time
+c4d0e481-7e95-470b-b6c8-501b80ded58b,25,Female,White,United States,United States,United States,English,No,DATA_EXPIRED
+b1a7e0c4-2529-4a8e-aa99-6773d5195792,30,Female,White,United States,United States,United States,English,No,Full-Time
+4d4667e9-1063-4eed-9fef-fe57ceb4ee51,41,Male,White,United States,United States,United States,English,No,Full-Time
+5a7aac47-f325-42ff-9040-3c52d00d607c,40,Male,Mixed,United States,United States,United States,English,No,Full-Time
+f2bfe9e3-8a6e-4a88-86c7-ee08d7eeecc8,50,Male,Black,United States,United States,United States,English,No,Full-Time
+5d4d609b-623f-4ca4-aae1-d636e9587542,55,Female,Black,United States,United States,United States,English,No,DATA_EXPIRED
+dd6cf992-13d6-494f-a34a-f63a6aac2dc8,29,Male,White,United States,United States,United States,English,Yes,Other
+0e10a34f-5a16-412d-a769-89a4f9d0b29c,46,Male,White,United States,United States,United States,English,DATA_EXPIRED,DATA_EXPIRED
+a8c551ec-d2ae-43e8-a814-21d5cf8211db,47,Male,White,United States,United States,United States,English,No,Part-Time
+8d0c22b8-bf3d-422e-b086-c525ce47b97c,22,Female,White,United States,United States,United States,English,No,Unemployed (and job seeking)
+49254fb3-a257-4288-8774-f752184a644c,26,Male,Asian,South Africa,United States,United States,English,No,Full-Time
+3610196d-5a0c-455e-98c6-39181197436d,44,Female,DATA_EXPIRED,United States,United States,United States,English,No,DATA_EXPIRED
+2cc9f841-fe43-45d7-a2ac-42ea80819d7d,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED
+db04aa20-0d2e-4038-8ead-367eb9653b6c,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED,CONSENT_REVOKED

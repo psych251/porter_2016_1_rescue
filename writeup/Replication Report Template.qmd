@@ -16,7 +16,7 @@ The experiment to be replicated is Study 3 from Porter et al. (2016). The origin
 
 The replicated study will follow a similar pipeline as the original study. Specifically, 168 participants will be recruited online via Prolific and randomly assigned to one of the two conditions (favorable LIB or unfavorable LIB). In both conditions, participants will be asked to read a short paragraph describing a target person's political affiliation and a description provided by an unknown communicator about that person's behavior. The communicator will use favorable LIB in one condition and unfavorable LIB in another condition. After reading the paragraph, participants will be asked to guess the communicator's political affiliation. Participants will also be asked to rate the likelihood that they will be friends with the communicator. After the experiment, participants will be asked to provide their political affiliation information as well.
 
-The main effect of LIB on social categorization will be tested via ANOVA tests. In addition, a three-way ANOVA analysis (i.e., 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation). ) will be carried out to test the secondary effect on friendship likelihood.
+The main effect of LIB on social categorization will be tested via ANOVA tests. In addition, a three-way ANOVA analysis (i.e., 2 (LIB condition) × 2 (target’s political affiliation) × 3 (participant’s political affiliation)) will be carried out to test the secondary effect on friendship likelihood.
 
 Below are links to related materials:
 
@@ -39,8 +39,6 @@ Since the first replication failed to obtain the specific wording of questions a
 
 Note that a key difference between the original paper and the first replication is the friendship likelihood question. While the original paper asked for participants to estimate their likelihood to be friend with the **communicator**, the replication asked for their likelihood to be friend with the **target**. Apart from this obvious measurement error, it is unclear whether the wording of the other questions might contribute to the failure of the first replication. 
 
-Furthermore, the author of the initial replication pointed out that factors such as a lack of attention check and potential memory loss may result in failure in passing the manipulation check, which would then lead to replication failure in general. The present attempt has addressed these issues.
-
 ### Sampling Differences
 The original paper recruited 145 participants (mean age= 30.91). Participants’ self-reported political-party affiliations were as follows: 41.4% Democrat, 17.2% Republican, 33.1% Independent, 3.4% “other,” and 4.8% not reported. Seventeen participants were excluded from the analysis.
 
@@ -49,7 +47,7 @@ The first replication recruited 168 participants (mean age = 33.41), based on th
 In terms of size and demographic distribution, the first replication's sample is generally fairly similar to that of the original research. The only difference is that there were no data exclusion in the first replication than in the original paper; this could be because the first replication did not include a "other" option for the political affiliation question, which was included in the original study. Failure to include a "other" option reduces the exclusion rate in the first replication compared to the original study.
 
 ### Analysis Differences
-The original article did not share their specific R code,so we cannot fully tell if there are any analysis differences.
+I found no discernible analysis differences that could potentially cause differences in analysis results.
 
 ## Methods
 
@@ -59,6 +57,7 @@ The main effect of the original study is stated as follow:
 >Participants in the favorable-LIB condition, relative to those in the unfavorable-LIB condition, were significantly more likely to believe that the communicator and target shared political-group membership, F(1, 121)= 8.67, p < .01, d = 0.51.
 
 For Power Analysis in G*Power, I used the following parameters:
+
   - Test Family: F tests.
   - Statistical Test: ANOVA: Fixed effects, special, main effects and interactions 
   - Type of Power Analysis: A priori (for sample size calculation).
@@ -82,10 +81,13 @@ The following passage describes the materials used in the original study:
 >Participants were asked to read a passage and then respond to questions. In the Republican-target condition, the passage indicated that Peter had voted for John McCain; in the Democratic-target condition, Peter had voted for Barack Obama. In the second part of the passage, participants were again provided with an unknown communicator’s description of Peter’s helpful and rude behaviors. Following Wigboldus et al. (2000), we included a description of one discrete episode, expressed in the present tense, for each type of behavior (for the full descriptions, see Table S1 in the Supplemental Material available online). For example, the description of helpful behavior in the favorable-LIB condition was written in abstract language and read as follows: “On one occasion, there is a person in a wheelchair who needs assistance getting up a ramp. Peter reaches for the handles of the wheelchair. Peter is helpful.” In the unfavorable-LIB condition, helpful behavior was described concretely: “On one occasion, there is a person in a wheelchair who needs assistance getting up a ramp. Peter reaches for the handles of the wheelchair. Peter pushes the wheelchair up the ramp.”
 After reading the passage, participants indicated the likely group membership of the communicator on an 8-point scale anchored by 1, definitely a Democrat, and 8, definitely a Republican. They then rated the likelihood that they would be friends with the communicator, using a 5-point scale ranging from 1, it is not at all likely, to 5, it is extremely likely. Finally, participants completed the manipulation-check items and a demographic questionnaire on which they reported their political-party affiliation and political ideology.
 
-We'll use the same scale and sequence as in the original passage. However, given that the Obama-McCain presidential election took place in 2008, our manipulation may be ineffective. Instead, we decide to provide more generalized group information by stating that Peter has previously voted for the Democratic or Republican Parties.
+We'll use the same scale and sequence as in the original passage. However, given that the Obama-McCain presidential election took place in 2008, our manipulation may be ineffective. Instead, we decide to provide more generalized group information by stating that Peter has previously voted for the Democratic or Republican Parties. The author of the initial replication pointed out that factors such as a lack of attention check and potential memory loss may result in failure in passing the manipulation check, which would then lead to replication failure in general. The present attempt addressed these issues.
+
+Furthermore, after contacting the original paper's authors, it appears that the specific material used in the experiment is no longer available for reference, so I took some liberties to infer the best possible practice when the detailed original material is not provided.
 
 ### Procedure	
 Building on the material discussed earlier, the procedure for the questionnaire is as follows: 
+
 1. Inform participants of the target social group's membership. 
 2. Present the communicator's description of the target. 
 3. Participants make inferences about the future behavior of the target, the communicator's group affiliation, and the likelihood of being friends with the communicator. 
@@ -97,16 +99,11 @@ Given the previous replication's failure and the subtlety of the manipulation, w
 ### Analysis Plan
 We will conduct three sets of data analyses to replicate the results:
 
-1. **LIB Manipulation Check**: This analysis aims to determine if favorable or unfavorable language-induced bias (LIB) conditions lead to different predictions about the target's future behavior (helpful or rude). The following analyses will be performed:
-  - Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels)
-2. **Social Category Inference**: The focus here is to examine if the LIB conditions influence inferences about the likelihood of shared category membership between the target and communicator. The analyses include:
-  - Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
+1. **LIB Manipulation Check**: This analysis aims to determine if favorable or unfavorable language-induced bias (LIB) conditions lead to different predictions about the target's future behavior (helpful or rude). The following analyses will be performed: Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels)
+2. **Social Category Inference**: The focus here is to examine if the LIB conditions influence inferences about the likelihood of shared category membership between the target and communicator. The analyses include: Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
 
-- Supplementary t-tests and calculation of Cohen's d effect size for subgroup analyses.
-3. **Friendship Likelihood**: We will assess participants' likelihood of becoming friends with the communicator using:
-  - Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
+3. **Friendship Likelihood**: We will assess participants' likelihood of becoming friends with the communicator using: Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
 
-Apart from the major factorial ANOVAs, for each set, we will also perform supplementary t-tests and calculation of Cohen's d effect size for subgroup analyses.
 
 ### Differences from Original Study and 1st replication
 
@@ -119,34 +116,34 @@ There are three key differences between the current project and the original stu
 3. **Put the material and question on the same page**: To avoid potential memory loss, we now put the material as well as the questions on the same page so that participants could refer to the material while answering questions.
 
 ### Methods Addendum (Post Data Collection)
-
-You can comment this section out prior to final report with data collection.
-
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+One hundred and seventy one samples were collected from the Prolific platform. Among the 171 participants, 7 failed the attention test, 7 reported "other" in their political affiliation, and 26 spent less than 100 seconds in the test. When removing the above participants, we got 136 observations. For the 136 observations, the participant mean age is 35.42. The participant's self-reported political party affiliation was as follows: 44.1% Democrat, 14% Republican, and 41.9% Independent.
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
-
+Prolific provided three more data points than anticipated; nevertheless, this was not the author's intention.
 
 ## Results
 ### Data preparation
-
-Data preparation following the analysis plan.
-	
 ```{r,message=FALSE, warning=FALSE}
 ### Data Preparation
 library(dplyr)
 library(tidyr)
 library(readr)
+library(readxl)
 library(ggplot2)
+library(knitr)
 
 # Read the data
 data_path = "../data"
-data <- read_csv(file.path(data_path, "pilot_b_anonymized.csv"))
+data <- read_csv(file.path(data_path, "full_anonymized.csv"))
+
+# remove rows that (1)failed the attention check, (2) report "other in political affiliation"(follow the original study), and (3) spent less than 100 seconds in the survey (the specific threshold did not make a huge difference)
+data_cleaned <- data %>% 
+  filter(attention==2 & polid !=4) %>%
+  filter(`Duration (in seconds)`>=100)
 
 # Revert wide to long, change variable names
-data_cleaned <- data %>%
+data_cleaned <- data_cleaned %>%
   rename(future_help1 = future_help1_1,
          future_help2 = future_help2_1,
          future_help3 = future_help3_1,
@@ -164,45 +161,69 @@ data_cleaned <- data %>%
          group_cate = if_else(condition %in% c(1, 2), "R", "D"),
          shared_group = if_else(condition %in% c(1, 2), 8 - pol_cate, pol_cate))
 
+data_cleaned$lib_cate <- factor(data_cleaned$lib_cate)
+data_cleaned$group_cate <- factor(data_cleaned$group_cate)
+data_cleaned$polid <- factor(data_cleaned$polid, levels = c(1, 2, 3), labels = c("Democrat", "Republican", "Independent"))
+
+```
+
+### Confirmatory analysis
+#### Manipulation Check
+The manipulation check failed, according to the data analysis results shown below. Different LIB manipulations had no effect on forecasting the target's future helpfulness and rudeness.
+```{r, message=FALSE, warning=FALSE}
+# Descriptive Stats: Future Helpfulness
+data_cleaned %>%
+  group_by(lib_cate) %>%
+  summarise(
+    mean = mean(future_help),
+    se = sd(future_help) / sqrt(n()))%>%
+  kable(align = "r")
+
+# Descriptive Stats: Future Rudeness
+data_cleaned %>%
+  group_by(lib_cate) %>%
+  summarise(
+    mean = mean(future_rude),
+    se = sd(future_rude) / sqrt(n()))%>%
+  kable(align = "r")
+
+# ANOVA test: Future Helpfulness
+res.aov <- aov(future_help~lib_cate, data = data_cleaned)
+print(summary(res.aov))
+
+# ANOVA test: Future Rudeness
+res.aov <- aov(future_rude~lib_cate, data = data_cleaned)
+print(summary(res.aov))
+
+# T-tests: Future Helpfulness
+print(t.test(future_help~lib_cate, data = data_cleaned))
+# print(t.test(future_help~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'D', ]))
+# print(t.test(future_help~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'R', ]))
+
+# T-tests: Future Rudeness
+print(t.test(future_rude~lib_cate, data = data_cleaned))
+# print(t.test(future_rude~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'D', ]))
+# print(t.test(future_rude~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'R', ]))
+```
+
+#### Main Effect
+Despite the fact that the manipulation effect failed, the main effect has indeed been reproduced, especially when the target was a Democrat. When the target is a Republican, however, the main effect fails to reproduce. The effect of the target's political affiliation is something that was not discovered in the original study. Consider the fact that the manipulation effect failed; it is likely that something else might cause the main effect.
+```{r, message=FALSE, warning=FALSE}
+## prepare data
 summary_data <- data_cleaned %>%
   group_by(lib_cate, group_cate) %>%
   summarise(
     mean = mean(shared_group),
     se = sd(shared_group) / sqrt(n()))
 
-# not used for this version: remove row with attention value that is not 2
-
-```
-
-### Confirmatory analysis
-#### Manipulation Check
-```{r, message=FALSE, warning=FALSE}
-# t test: LIB on future behavior
-print(t.test(future_rude~lib_cate, data = data_cleaned))
-print(t.test(future_help~lib_cate, data = data_cleaned))
-
-# one way anova: LIB on future behavior
-res.aov <- aov(future_help ~ lib_cate, data = data_cleaned)
-print(summary(res.aov))
-res.aov <- aov(future_rude ~ lib_cate, data = data_cleaned)
-print(summary(res.aov))
-
-# two way anova: LIB, target group, future behavior
-res.aov2 <- aov(future_help ~ lib_cate + group_cate + lib_cate:group_cate, data = data_cleaned)
-summary(res.aov2)
-
-res.aov2 <- aov(future_rude ~ lib_cate + group_cate + lib_cate:group_cate, data = data_cleaned)
-summary(res.aov2)
-```
-
-#### Main Effect
-```{r}
-## plot
+## bar plot
+# note that the scale of y in original plot is 3.5 to 6. Here we change it to 2-6 due to missing datapoints
 ggplot(summary_data, aes(x = group_cate, y = mean,  fill = lib_cate)) +
   geom_bar(stat = "identity", position = position_dodge()) +
   geom_errorbar(aes(ymin = mean - se, ymax = mean + se), 
                 width = 0.2, 
                 position = position_dodge(0.9))+
+  coord_cartesian(ylim = c(2, NA)) +
   labs(x = "Political Group", y = "Likelihood of Shared Group Membership") +
   theme_minimal()
 
@@ -211,36 +232,206 @@ res.aov <- aov(shared_group ~ lib_cate, data = data_cleaned)
 print(summary(res.aov))
 
 ## three way anova
-res.aov3 <- aov(shared_group ~ lib_cate + group_cate + polid, data = data_cleaned)
+res.aov3 <- aov(shared_group ~ lib_cate* group_cate* polid, data = data_cleaned)
 print(summary(res.aov3))
 
 ## t test
-# print(t.test(shared_group~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'D', ]))
-# print(t.test(shared_group~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'R', ]))
+print(t.test(shared_group~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'D', ]))
+print(t.test(shared_group~lib_cate, data = data_cleaned[data_cleaned$group_cate == 'R', ]))
 ```
 
 #### Secondary Effect
+We did not detect a significant interaction between Target's Political Affiliation and Participant's Political Affiliation. Furthermore, contrary to the original study, which found that the LIB Condition Target's Political Affiliation interaction was strongest for democrat participants, marginal for republican participants, and nonsignificant for independent participants, we discovered that independent participants preferred being friends with communicators who used favorable LIB frames.
 ```{r}
-res.aov3 <- aov(likelyfriends ~ lib_cate + group_cate + polid, data = data_cleaned)
+# Three way ANOVA
+res.aov3 <- aov(likelyfriends ~ lib_cate* group_cate* polid, data = data_cleaned)
 print(summary(res.aov3))
-```
-### Exploratory analyses
 
-Any follow-up analyses desired (not required).  
+# Two Way ANOVA for democrat participant
+res.aov2 <- aov(likelyfriends ~ lib_cate* group_cate, data = subset(data_cleaned, polid=='Democrat'))
+print(summary(res.aov2))
+
+# Two Way ANOVA for republican participant
+res.aov2 <- aov(likelyfriends ~ lib_cate* group_cate, data = subset(data_cleaned, polid=='Republican'))
+print(summary(res.aov2))
+
+# Two Way ANOVA for independent participant
+res.aov2 <- aov(likelyfriends ~ lib_cate* group_cate, data = subset(data_cleaned, polid=='Independent'))
+print(summary(res.aov2))
+```
+
+The code below is used to build a table with summary data on participants' mean self-reported likelihood of friendship with the communicator. We found no evidence of in-group favortism, contrary to what the original study found.
+```{r, warning=FALSE, message=FALSE}
+# recreate the table
+summary_data <- data_cleaned %>%
+  group_by(polid, lib_cate, group_cate) %>%
+  summarise(
+    mean_value = mean(likelyfriends),
+    sd_value = sd(likelyfriends)
+  ) %>%
+  ungroup()
+
+# Next, pivot the data to a wider format
+wide_data <- summary_data %>%
+  pivot_wider(
+    names_from = c(group_cate, lib_cate),
+    values_from = c(mean_value, sd_value),
+    names_glue = "{group_cate}_{lib_cate}_{.value}"
+  )
+
+# Create a function to combine mean and sd into a single string
+combine_mean_sd <- function(mean, sd) {
+  sprintf("%.2f (%.2f)", mean, sd)
+}
+
+# Apply the function to each pair of mean and sd columns
+for (target in unique(data_cleaned$group_cate)) {
+  for (lib in unique(data_cleaned$lib_cate)) {
+    mean_col_name <- paste(target, lib, "mean_value", sep = "_")
+    sd_col_name <- paste(target, lib, "sd_value", sep = "_")
+    combined_col_name <- paste(target, lib, sep = " ")
+    wide_data <- wide_data %>%
+      mutate(!!combined_col_name := combine_mean_sd(!!sym(mean_col_name), !!sym(sd_col_name)))
+  }
+}
+
+# Select only the combined columns and the polid
+final_columns <- c("polid", paste(rep(unique(data_cleaned$group_cate), each = length(unique(data_cleaned$lib_cate))), 
+                                  unique(data_cleaned$lib_cate), sep = " "))
+final_data <- wide_data %>%
+  select(all_of(final_columns))
+
+kable(final_data)
+```
+
+### Exploratory analyses
+I have imported data from the original study to test if the analysis method used above could reproduce the results based on the original data. The general conclusion is that the analysis method used above have no problem reproducing results reported in the original study. Therefore, the failure of reproduction could only be attributed to the data quality and data collection process.  
+```{r, warning=FALSE, message=FALSE}
+original_data <-read_excel(file.path(data_path, "original_study.xlsx"))
+original_data<-original_data%>%
+  mutate(lib_cate = if_else(LIB_condition ==1, "F", "U"),
+         group_cate = if_else(RepDemcondition==1, "D", "R"))
+
+original_data$lib_cate <- factor(original_data$lib_cate)
+original_data$group_cate <- factor(original_data$group_cate)
+original_data$polid <- factor(original_data$polid, levels = c(1, 2, 3), labels = c("Democrat", "Republican", "Independent"))
+
+
+# Manipulation Check: pass
+res.aov <- aov(future_help~lib_cate, data = original_data)
+print(summary(res.aov))
+
+res.aov <- aov(future_rude~lib_cate, data = original_data)
+print(summary(res.aov))
+
+# Main Result
+summary_data <- original_data %>%
+  group_by(lib_cate, group_cate) %>%
+  summarise(
+    mean = mean(target_pol_categorization),
+    se = sd(target_pol_categorization) / sqrt(n()))
+
+## bar plot
+# note that the scale of y in original plot is 3.5 to 6. Here we change it to 2-6 due to missing datapoints
+ggplot(summary_data, aes(x = group_cate, y = mean,  fill = lib_cate)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), 
+                width = 0.2, 
+                position = position_dodge(0.9))+
+  coord_cartesian(ylim = c(2, NA)) +
+  labs(x = "Political Group", y = "Likelihood of Shared Group Membership") +
+  theme_minimal()
+
+# Secondary Result
+res.aov3 <- aov(likelyfriends ~ lib_cate* group_cate* polid, data = original_data)
+print(summary(res.aov3))
+
+# Two Way ANOVA for democrat participant
+res.aov2 <- aov(likelyfriends ~ lib_cate* group_cate, data = subset(original_data, polid=='Democrat'))
+print(summary(res.aov2))
+
+# Two Way ANOVA for republican participant
+res.aov2 <- aov(likelyfriends ~ lib_cate* group_cate, data = subset(original_data, polid=='Republican'))
+print(summary(res.aov2))
+
+# Two Way ANOVA for independent participant
+res.aov2 <- aov(likelyfriends ~ lib_cate* group_cate, data = subset(original_data, polid=='Independent'))
+print(summary(res.aov2))
+```
+
+```{r, warning=FALSE, message=FALSE}
+# recreate the table
+summary_data <- original_data %>%
+  group_by(polid, lib_cate, group_cate) %>%
+  summarise(
+    mean_value = mean(likelyfriends),
+    sd_value = sd(likelyfriends)
+  ) %>%
+  ungroup()
+
+# Next, pivot the data to a wider format
+wide_data <- summary_data %>%
+  pivot_wider(
+    names_from = c(group_cate, lib_cate),
+    values_from = c(mean_value, sd_value),
+    names_glue = "{group_cate}_{lib_cate}_{.value}"
+  )
+
+# Create a function to combine mean and sd into a single string
+combine_mean_sd <- function(mean, sd) {
+  sprintf("%.2f (%.2f)", mean, sd)
+}
+
+# Apply the function to each pair of mean and sd columns
+for (target in unique(original_data$group_cate)) {
+  for (lib in unique(original_data$lib_cate)) {
+    mean_col_name <- paste(target, lib, "mean_value", sep = "_")
+    sd_col_name <- paste(target, lib, "sd_value", sep = "_")
+    combined_col_name <- paste(target, lib, sep = " ")
+    wide_data <- wide_data %>%
+      mutate(!!combined_col_name := combine_mean_sd(!!sym(mean_col_name), !!sym(sd_col_name)))
+  }
+}
+
+# Select only the combined columns and the polid
+final_columns <- c("polid", paste(rep(unique(original_data$group_cate), each = length(unique(original_data$lib_cate))), 
+                                  unique(original_data$lib_cate), sep = " "))
+final_data <- wide_data %>%
+  select(all_of(final_columns))
+
+# View the final table
+kable(final_data)
+```
 
 ## Discussion
-
 ## Mini meta analysis
-Combining across the original paper, 1st replication, and 2nd replication, what is the aggregate effect size? 
+|  | Original | 1st Replication | 2nd Replication |
+|---|---|---|---|
+| Manipulation (Future Helpful) | F(1, 129) = 10.14, p < .01 | F(1, 165) =7.07, p < .01 | F(1, 134) = 0.16, p = 0.69 |
+| Manipulation (Future Rude) | F(1, 129) = 9.40, p < .01 | ? | F(1, 134) = 0.90, p = 0.35 |
+| Main Effect (Social Categorization) | F(1, 121) = 8.67, p < .01 | F(1, 167) = 0.5, p = 0.48 | F(1, 134) = 6.40, p = 0.01 |
+| Secondary Effect (Friendship likelihood) | F(2, 121) = 4.60, p = .01 | F(2, 157) = 0.62, p = 0.53 | F(1, 124) =0.48, p = 0.62 |
 
 ### Summary of Replication Attempt
-
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+As mentioned above, this study tries to replicate three effects: (1) Manipulation effect of LIB on future rude/helpfulness (2)Main Effect of LIB on social categorization (3)Secondary effect on friendship likelihood. This replication attempt failed to replicate the manipulation effect and the secondary effect, but, surprisingly, replicated the main effect. And we find that the success of the replication of the main effect is mainly driven by the particular experiment condition when the target was setted up as voted for democratic party. 
 
 ### Commentary
+I'll avoid speculating too deeply on why the replication failed due to limited evidence, but there are a few potential reasons:
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+1. **Theory-Level**: The manipulation check may not actually mediate the effect of LIB. The use of favorable LIB frames by a communicator might only make people aware of the communicator's bias towards the target, without changing their own views about the target. People could recognize the use of LIB frames and infer the communicator's group membership, yet remain unpersuaded by these frames. This could lead to a failed manipulation but a replicated main effect.
 
-There were several confusing problems with the original studies that I don't know how to explain:
-1. The original study use different likert scales for the identical research question between studies. In study 1, when estimating the likelihood that the communicator was either a Democrat or a Republican (the key construct of interest), Ratings were made on a 7-point scale, anchored by 1, definitely a Republican, and 7, definitely a Democrat. However, in study 3, the likely group membership of the communicator was estimated on an 8-point scale anchored by 1, definitely a Democrat, and 8, definitely a Republican. The authors did not make any justifications on why they decide to change scales.
+2. **Experiment-Level**:
+- Participant inattention. The average survey completion time was 221 seconds, shorter than the estimated 5 minutes, suggesting that participants might not have paid enough attention to the nuances in the material.
+- Modification of Experimental Material: I altered the wording for disclosing the target's social group membership. This change might have unexpectedly affected the experiment, although the specifics of this impact are unclear.
+- Change in Experimental Environment: The original study was conducted a decade ago, and since then, the political landscape has significantly changed. The current highly polarized political atmosphere could overshadow the subtle effects of LIB, though it's also conceivable that it could amplify them. The exact reasons for this potential override, rather than amplification, remain unclear.
+
+
+3. **Other Comments**:
+- Past replication efforts identified two design-level issues that could have led to replication failure: separation of the vignette and questions and absence of an attention check. However, these issues were addressed in this current version.
+- A minor inconsistency in the original studies was noted, though it likely didn't significantly impact replication failure. The original study used different Likert scales for the same research question. In study 1, group membership likelihood was rated on a 7-point scale (1 being 'definitely a Republican', 7 being 'definitely a Democrat'), whereas in study 3, it was an 8-point scale (1 for 'definitely a Democrat', 8 for 'definitely a Republican'), with no justification for the change provided.
+
+
+
+
+
 
