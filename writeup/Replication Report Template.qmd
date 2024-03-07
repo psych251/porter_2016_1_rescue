@@ -20,12 +20,14 @@ The main effect of LIB on social categorization will be tested via ANOVA tests. 
 
 Below are links to related materials:
 
-- Link to the [Qualtrics Survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_8AhNKUkgXXDVaOa)
-- Link to the [GitHub repository](https://github.com/psych251/porter_2016_1_rescue)
 - Link to the [Original study](https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdf)
 - Link to the [Previous Replication](https://rpubs.com/sansiropp/261171)
+- Link to the [Qualtrics Survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_8AhNKUkgXXDVaOa)
+- Link to the [GitHub repository](https://github.com/psych251/porter_2016_1_rescue)
+- Link to the [Preregistraion](https://osf.io/eu3jk)
 
 ## Summary of prior replication attempt
+We only found one replication of the focal study, which is linked above (referred to as the "first replication"). We found no other published replications of the focus study after manually verifying all citations to it.
 
 ### Method differences
 Since the first replication failed to obtain the specific wording of questions and instructions from the authors, they came up with their own wording for the questions and instructions. However, while searching for the original codebook in the OSF repository, I discovered some questions that were used in the original material. The table below compares the wording in the original paper to that in the first replication.
@@ -101,7 +103,6 @@ We will conduct three sets of data analyses to replicate the results:
 
 1. **LIB Manipulation Check**: This analysis aims to determine if favorable or unfavorable language-induced bias (LIB) conditions lead to different predictions about the target's future behavior (helpful or rude). The following analyses will be performed: Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels)
 2. **Social Category Inference**: The focus here is to examine if the LIB conditions influence inferences about the likelihood of shared category membership between the target and communicator. The analyses include: Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
-
 3. **Friendship Likelihood**: We will assess participants' likelihood of becoming friends with the communicator using: Factorial ANOVAs to estimate the effects of LIB condition (2 levels), target's political affiliation (2 levels), and participant's political affiliation (3 levels: Democrat, Republican, Independent).
 
 
@@ -114,6 +115,8 @@ There are three key differences between the current project and the original stu
 2. **Inclusion of Attention Check Questions**: Attention check questions have been added in the post-test questionnaire. See description in the "Control" section.
 
 3. **Put the material and question on the same page**: To avoid potential memory loss, we now put the material as well as the questions on the same page so that participants could refer to the material while answering questions.
+
+Given that the current version of replication is conducted in a different context (i.e., 15 years after the Obama-McCain presidential election), using slightly different procedural details and survey platform, and using slightly different stimulus to indicate the target's group membership, we consider it to be a **close replication** (LeBel et al., 2018). The rationale of experimental design is explained in the sections above.
 
 ### Methods Addendum (Post Data Collection)
 #### Actual Sample
@@ -411,6 +414,10 @@ kable(final_data)
 | Manipulation (Future Rude) | F(1, 129) = 9.40, p < .01 | ? | F(1, 134) = 0.90, p = 0.35 |
 | Main Effect (Social Categorization) | F(1, 121) = 8.67, p < .01 | F(1, 167) = 0.5, p = 0.48 | F(1, 134) = 6.40, p = 0.01 |
 | Secondary Effect (Friendship likelihood) | F(2, 121) = 4.60, p = .01 | F(2, 157) = 0.62, p = 0.53 | F(1, 124) =0.48, p = 0.62 |
+
+We also provided a graphic comparison of the main effect across original study, first replication, and the current replication:
+
+
 
 ### Summary of Replication Attempt
 As mentioned above, this study tries to replicate three effects: (1) Manipulation effect of LIB on future rude/helpfulness (2)Main Effect of LIB on social categorization (3)Secondary effect on friendship likelihood. This replication attempt failed to replicate the manipulation effect and the secondary effect, but, surprisingly, replicated the main effect. And we find that the success of the replication of the main effect is mainly driven by the particular experiment condition when the target was setted up as voted for democratic party. 
