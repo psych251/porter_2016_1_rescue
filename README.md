@@ -6,10 +6,13 @@ In the **/data** folder, I have shared both the answers to the questionnaire as 
 
 Data shared by the original article could be found in the **/original_paper** folder. The detailed analysis step is in the **/writeup** folder.
 
+The survey material is provided in the **survey.qsf** file.
+
 Below are links to other related materials:
 
-- Link to the [Current Project Report](https://rpubs.com/zwc1701/1128130)
+- Link to the [Current Project Report](https://rpubs.com/zwc1701/1158461)
 - Link to the [Qualtrics Survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_8AhNKUkgXXDVaOa)
 - Link to the [GitHub repository](https://github.com/psych251/porter_2016_1_rescue)
+- Link to the [Preregistraion](https://osf.io/eu3jk)
 - Link to the [Original study](https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdf)
 - Link to the [Previous Replication](https://rpubs.com/sansiropp/261171)

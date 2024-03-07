@@ -21,7 +21,7 @@ The main effect of LIB on social categorization will be tested via ANOVA tests. 
 Below are links to related materials:
 
 - Link to the [Original study](https://github.com/psych251/porter_2016_1_rescue/blob/main/original_paper/porter-et-al-2015-inferring-identity-from-language-linguistic-intergroup-bias-informs-social-categorization.pdf)
-- Link to the [Previous Replication](https://rpubs.com/sansiropp/261171)
+- Link to the [First Replication](https://rpubs.com/sansiropp/261171)
 - Link to the [Qualtrics Survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_8AhNKUkgXXDVaOa)
 - Link to the [GitHub repository](https://github.com/psych251/porter_2016_1_rescue)
 - Link to the [Preregistraion](https://osf.io/eu3jk)
@@ -411,12 +411,27 @@ kable(final_data)
 |  | Original | 1st Replication | 2nd Replication |
 |---|---|---|---|
 | Manipulation (Future Helpful) | F(1, 129) = 10.14, p < .01 | F(1, 165) =7.07, p < .01 | F(1, 134) = 0.16, p = 0.69 |
-| Manipulation (Future Rude) | F(1, 129) = 9.40, p < .01 | ? | F(1, 134) = 0.90, p = 0.35 |
+| Manipulation (Future Rude) | F(1, 129) = 9.40, p < .01 | Not reported | F(1, 134) = 0.90, p = 0.35 |
 | Main Effect (Social Categorization) | F(1, 121) = 8.67, p < .01 | F(1, 167) = 0.5, p = 0.48 | F(1, 134) = 6.40, p = 0.01 |
 | Secondary Effect (Friendship likelihood) | F(2, 121) = 4.60, p = .01 | F(2, 157) = 0.62, p = 0.53 | F(1, 124) =0.48, p = 0.62 |
 
 We also provided a graphic comparison of the main effect across original study, first replication, and the current replication:
-
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/psych251/porter_2016_1_rescue/blob/main/writeup/org.png?raw=true" alt="Image 1" style="width: 120%;"/>
+      <p align="center">Original</p>
+    </td>
+    <td>
+      <img src="https://github.com/psych251/porter_2016_1_rescue/blob/main/writeup/1st.png?raw=true" alt="Image 2" style="width: 110%;"/>
+      <p align="center">1st Replication</p>
+    </td>
+    <td>
+      <img src="https://github.com/psych251/porter_2016_1_rescue/blob/main/writeup/2nd.png?raw=true" alt="Image 3" style="width: 110%;"/>
+      <p align="center">2nd Replication</p>
+    </td>
+  </tr>
+</table>
 
 
 ### Summary of Replication Attempt
