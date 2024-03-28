@@ -435,7 +435,7 @@ We also provided a graphic comparison of the main effect across original study, 
 
 
 ### Summary of Replication Attempt
-As mentioned above, this study tries to replicate three effects: (1) Manipulation effect of LIB on future rude/helpfulness (2)Main Effect of LIB on social categorization (3)Secondary effect on friendship likelihood. This replication attempt failed to replicate the manipulation effect and the secondary effect, but, surprisingly, replicated the main effect. And we find that the success of the replication of the main effect is mainly driven by the particular experiment condition when the target was setted up as voted for democratic party. 
+As mentioned above, this study tries to replicate three effects: (1) Manipulation effect of LIB on future rude/helpfulness (2)Main Effect of LIB on social categorization (3)Secondary effect on friendship likelihood. This replication attempt failed to replicate the manipulation effect and the secondary effect, but, surprisingly, replicated the main effect. And we find that the success of the replication of the main effect is mainly driven by the particular experiment condition when the target was setted up as voted for democratic party. As a result, we consider the numerical score of the replication success to be 0.25, reflecting that only a small portion of the target effects are successfully replicated.
 
 ### Commentary
 I'll avoid speculating too deeply on why the replication failed due to limited evidence, but there are a few potential reasons:
